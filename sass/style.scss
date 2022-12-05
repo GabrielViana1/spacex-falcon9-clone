@@ -1,0 +1,82 @@
+//COLORS
+@import"./variables/colors/colors.scss";
+
+//COMMON
+@import"./variables/common/common.scss";
+
+//FALCON9
+@import"./pages/falcon9.scss";
+
+//HUMAM PAGE
+@import"./pages/humam.scss";
+
+body{
+    overflow-x: hidden;
+}
+
+.container1{
+    background-image: url(../images/home/01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-width: 100vw;
+}
+
+header{
+    height: 230px;
+}
+
+.titlepadding p{
+    color: white;
+}
+
+.btn-lg{
+    width: 150px;
+    height: 55px;
+    font-size: 15px;
+    border-radius: 3px;
+    border: solid 2px white;
+}
+
+.seta-gif img{
+    width: 100px;
+}
+
+//AQUI COMEÇA O BANNER 2
+.container2{
+    background-image: url(../images/home/03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+//AQUI COMEÇA O BANNER 3
+.container3{
+    background-image: url(../images/home/02.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+//AQUI COMEÇA O BANNER 4
+.container4{
+    background-image: url(../images/home/04.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    font-family: 'Rubik' sans-serif;
+}
+

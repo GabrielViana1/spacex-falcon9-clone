@@ -1,0 +1,186 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container-human1{
+    background-image: url(/images/humanFlight/01.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.human-header-size{
+    height: auto;
+}
+
+.banner-main{
+    font-size: 120px;
+    font-weight: 500;
+    color: white;
+    line-height: 120%;
+}
+
+.subtitle-banner{
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.info-voo{
+    background-color: black;
+    font-size: 22px;
+    color: #f5f5f5;
+    min-height: 150px;
+}
+
+.info-voo a{
+    color: #f7f7f7;
+    font-weight: 500;
+}
+
+//CONTAINER HUMAN 2
+.container-human2{
+    background-image: url(/images/humanFlight/02.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.titlepadding-human2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+#title-human-main{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 90%;
+}
+
+//CONTAINER HUMAN 3
+.container-human3{
+    background-image: url(/images/humanFlight/03.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.titlepadding-human3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+//CONTAINER HUMAN 4
+.container-human4{
+    background-image: url(/images/humanFlight/04.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.titlepadding-human4{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+//CONTAINER HUMAN 5
+.container-human5{
+    background-image: url(/images/humanFlight/05.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.titlepadding-human5{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.contato-social{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media(max-width: 770px){
+    .banner-main{
+        font-size: 80px;
+        font-weight: 500;
+        color: white;
+        line-height: 100%;
+    }
+    
+    .subtitle-banner{
+        color: white;
+        font-weight: 300;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 525px){
+    .banner-main{
+        font-size: 50px;
+        font-weight: 500;
+        color: white;
+        line-height: 100%;
+    }
+    
+    .subtitle-banner{
+        color: white;
+        font-weight: 300;
+        font-size: 16px;
+    }
+
+    .info-voo{
+        margin: 0;
+        padding: 0;
+        height: auto;
+        font-size: 13px;
+    }
+
+}
+
+@media(max-width: 345px){
+    .banner-main{
+        font-size: 35px;
+        font-weight: 500;
+        color: white;
+        line-height: 100%;
+    }
+    
+    .subtitle-banner{
+        color: white;
+        font-weight: 300;
+        font-size: 12px;
+    }
+
+    #title-human-main{
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 90%;
+    }
+}

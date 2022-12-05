@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+body {
+    overflow-x: hidden;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-img img {
+    max-width: 240px;
+}
+
+#nav-btn a {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-shadow: black 2px 2px 2px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 70px;
+    min-width: 100vw;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.ul-ft li {
+    font-size: 12px;
+}
+
+.copy {
+    color: $copy-rigth-color;
+}
+
+.li-ft {
+    list-style: none;
+}
+
+.li-ft a {
+    color: white;
+    text-decoration: none;
+}
